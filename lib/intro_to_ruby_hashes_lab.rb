@@ -13,8 +13,7 @@ def my_hash
  wedding_hash
 end
 
-def pioneer
- pioneer = {
+def pioneer {
     :name => 'Grace Hopper',
     :age => 26
   }
