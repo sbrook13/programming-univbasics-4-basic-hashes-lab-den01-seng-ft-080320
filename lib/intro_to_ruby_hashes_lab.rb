@@ -5,9 +5,9 @@ end
 
 def my_hash
  wedding_hash = {
-   location: "Arapaho Valley Ranch"
-   date: "September 19, 2020"
-   bride: "Shelley"
+   location: "Arapaho Valley Ranch",
+   date: "September 19, 2020",
+   bride: "Shelley",
    groom: "Jared"
  }
  wedding_hash
@@ -15,7 +15,7 @@ end
 
 def pioneer
  pioneer = {
-    :name => 'Grace Hopper'
+    :name => 'Grace Hopper',
     :age => 26
   }
 end
