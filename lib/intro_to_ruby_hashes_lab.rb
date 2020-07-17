@@ -1,5 +1,6 @@
 def new_hash
   item_name = {}
+  item_name
 end
 
 def my_hash
@@ -9,6 +10,7 @@ def my_hash
    bride: "Shelley"
    groom: "Jared"
  }
+ wedding_hash
 end
 
 def pioneer
@@ -23,4 +25,5 @@ def id_hash_generator(number)
   new_hash = {}
   new_hash[:id] = number
   }
+  new_hash
 end
