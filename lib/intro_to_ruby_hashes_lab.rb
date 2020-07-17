@@ -1,16 +1,27 @@
 def new_hash
-  # return an empty hash
+  item_name = {}
+  item_name
 end
 
 def my_hash
-  # return a valid hash with any key/value pair of your choice
+ wedding_hash = {
+   location: "Arapaho Valley Ranch",
+   date: "September 19, 2020",
+   bride: "Shelley",
+   groom: "Jared"
+ }
 end
 
 def pioneer
-  # return a hash with a key of :name and a corresponding value of 'Grace Hopper'
+ pioneer_new = {
+    :name => 'Grace Hopper',
+    :age => 26
+  }
 end
 
 
 def id_hash_generator(number)
-  # return a hash with a key :id assigned to the provided number
+  new_hash = {}
+  new_hash[:id] = number
+  new_hash
 end
